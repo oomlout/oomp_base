@@ -16,11 +16,11 @@ The initial focus is on electronic components and fasteners.
 ### Repos
 This is tricky.  
 
-The hope is for OOMP to be flexible enough for many people to use, and for each person OOMP to have the ability to include the parts that are important to them.
+The hope is for OOMP to be flexible enough for many people to use, and for each persons OOMP to have the ability to include the parts that are important to them.
 
 At the moment it's just me so it's parts that are important to me which is basic electronic components (resistors and capacitors) and smaller fasteners and fixings.
 
-However I wanted to structure it in a way that could grow so heres the current structure.
+However I wanted to structure it in a way that could grow, so heres the current structure.
 
 Note: The repos that prepend oomlout to their name are there as examples of our amatuer implementation of that stage, the ones without are envisioned to serve as source data.
 
@@ -28,11 +28,11 @@ Note: The repos that prepend oomlout to their name are there as examples of our 
 This repo only contains this readme to describe other repos.
 
 #### The Dirty
-* https://github.com/oomlout/oomlout_oomp_part_src
+* https://github.com/oomlout/oomlout_oomp_part_src  
 This is my monolithic repo that includes all the parts I've defined as well as images, labels, scripts, and experiments. If you just want a specific file and don't mind a proper mess clone this and find what you are after. The code in it will be completly unusable on anyone elses computer. 
 
 #### The Segmented
-Ultimately I'd like OOMP to have a foundation that can have details controlled and monitored with revision control. To enable this I've setup some segmented repos. These are currently sanitized versions of myown repo. I split them in ways that I think might be useful to others. 
+Ultimately I'd like OOMP to have a foundation that can have details controlled and monitored with revision control. To enable this I've setup some segmented repos. These are currently sanitized versions of my own repo. I split them in ways that I think might be useful to others. 
 
 #### Parts data
 These contain parts data in yaml and json format, segmented into class.
@@ -61,7 +61,7 @@ These contain datasheets
 * https://github.com/oomlout/oomp_base_hardware_datasheet
 
 #### The Builder
-This builds your oomp. It takes a list of repos pulls them and puts all the parts folder in one folder.
+This builds your oomp. It takes a list of repos pulls them and puts all the parts folder into one folder. Currently also has a utility to load the yamls from all directories into a single pickle/yaml file, and one for creating links to make navigating using shorter codes possible.
 * https://github.com/oomlout/oomlout_oomp_builder
 
 #### Utilities
