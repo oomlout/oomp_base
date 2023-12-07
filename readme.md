@@ -62,10 +62,19 @@ These contain datasheets
 
 #### The Builder
 This builds your oomp. It takes a list of repos pulls them and puts all the parts folder into one folder. Currently also has a utility to load the yamls from all directories into a single pickle/yaml file, and one for creating links to make navigating using shorter codes possible.
+
 * https://github.com/oomlout/oomlout_oomp_builder
+  * Works within code space
 
 #### Utilities
 As each parts data and source files are standardized it is possible to write utilities to do things like generate summary pages or   labels
+
+#### Data
+Repositories that focus on adding data to parts.  
+
+##### Part number  
+* https://github.com/oomlout/oomlout_oomp_data_distributor_part_numbers_lcsc  
+
 
 
 ### Parts
