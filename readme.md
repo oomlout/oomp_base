@@ -69,6 +69,10 @@ This builds your oomp. It takes a list of repos pulls them and puts all the part
 #### Utilities
 As each parts data and source files are standardized it is possible to write utilities to do things like generate summary pages or   labels
 
+##### Readme generator  
+https://github.com/oomlout/oomlout_oomp_utility_readme_generation  
+Generates a readme using a template for each part  
+
 #### Data
 Repositories that focus on adding data to parts.  
 
