@@ -75,9 +75,9 @@ A data injector has a yaml file in the data directory. These are loaded and all 
 
 ##### Distributor Part Numbers
 https://github.com/oomlout/oomlout_oomp_data_injector_distributor_part_numbers  
-Inserts some select distributor part numbers.
-https://github.com/oomlout/oomlout_oomp_data_injector_bolt_part_numbers
-Part numbers for sourcing m3 nuts and bolts in the uk, currently just orbital fasteners, example of spreadsheet, to csv to yaml pipeline.
+Inserts some select distributor part numbers.  
+https://github.com/oomlout/oomlout_oomp_data_injector_bolt_part_numbers  
+Part numbers for sourcing m3 nuts and bolts in the uk, currently just orbital fasteners, example of spreadsheet, to csv to yaml pipeline.  
 
 
 
