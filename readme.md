@@ -34,42 +34,77 @@ This is my monolithic repo that includes all the parts I've defined as well as i
 #### The Segmented
 Ultimately I'd like OOMP to have a foundation that can have details controlled and monitored with revision control. To enable this I've setup some segmented repos. These are currently sanitized versions of my own repo. I split them in ways that I think might be useful to others. 
 
+##### Current Classifications
+  * computer
+  * electrical
+  * electronic
+  * hardware
+  * mechanical
+  * oobb
+  * packaging
+  * storage
+  * tool
+
 ##### Parts data
 These contain parts data in yaml and json format, segmented into class.
+* https://github.com/oomlout/oomp_base_computer
+* https://github.com/oomlout/oomp_base_electrical
 * https://github.com/oomlout/oomp_base_electronic
 * https://github.com/oomlout/oomp_base_hardware
+* https://github.com/oomlout/oomp_base_mechanical
 * https://github.com/oomlout/oomp_base_oobb
 * https://github.com/oomlout/oomp_base_packaging
+* https://github.com/oomlout/oomp_base_storage
+* https://github.com/oomlout/oomp_base_tool
 
 ##### Image data
 These contain the images for parts.
+* https://github.com/oomlout/oomp_base_computer_image
+* https://github.com/oomlout/oomp_base_electrical_image
 * https://github.com/oomlout/oomp_base_electronic_image
 * https://github.com/oomlout/oomp_base_hardware_image
+* https://github.com/oomlout/oomp_base_mechanical_image
 * https://github.com/oomlout/oomp_base_oobb_image
 * https://github.com/oomlout/oomp_base_packaging_image
+* https://github.com/oomlout/oomp_base_storage_image
+* https://github.com/oomlout/oomp_base_tool_image
 
 
 ##### Three D Models
 These contain the three d models for parts
-* https://github.com/oomlout/oomp_base_electronic_three_d_model
-* https://github.com/oomlout/oomp_base_hardware_three_d_model
-* https://github.com/oomlout/oomp_base_oobb_three_d_model
-* https://github.com/oomlout/oomp_base_packaging_three_d_model
+* https://github.com/oomlout/oomp_base_computer_three_d_models
+* https://github.com/oomlout/oomp_base_electrical_three_d_models
+* https://github.com/oomlout/oomp_base_electronic_three_d_models
+* https://github.com/oomlout/oomp_base_hardware_three_d_models
+* https://github.com/oomlout/oomp_base_mechanical_three_d_models
+* https://github.com/oomlout/oomp_base_oobb_three_d_models
+* https://github.com/oomlout/oomp_base_packaging_three_d_models
+* https://github.com/oomlout/oomp_base_storage_three_d_models
+* https://github.com/oomlout/oomp_base_tool_three_d_models
 
 ##### Drawings
 These contain any relevant drawing files for parts
+* https://github.com/oomlout/oomp_base_computer_drawing
+* https://github.com/oomlout/oomp_base_electrical_drawing
 * https://github.com/oomlout/oomp_base_electronic_drawing
 * https://github.com/oomlout/oomp_base_hardware_drawing
+* https://github.com/oomlout/oomp_base_mechanical_drawing
 * https://github.com/oomlout/oomp_base_oobb_drawing
 * https://github.com/oomlout/oomp_base_packaging_drawing
+* https://github.com/oomlout/oomp_base_storage_drawing
+* https://github.com/oomlout/oomp_base_tool_drawing
 
 ##### Datasheet
 These contain datasheets
+* https://github.com/oomlout/oomp_base_computer_datasheet
+* https://github.com/oomlout/oomp_base_electrical_datasheet
 * https://github.com/oomlout/oomp_base_electronic_datasheet
 * https://github.com/oomlout/oomp_base_hardware_datasheet
+* https://github.com/oomlout/oomp_base_mechanical_datasheet
 * https://github.com/oomlout/oomp_base_oobb_datasheet
 * https://github.com/oomlout/oomp_base_packaging_datasheet
-
+* https://github.com/oomlout/oomp_base_storage_datasheet
+* https://github.com/oomlout/oomp_base_tool_datasheet
 #### Data Injectors
 A data injector has a yaml file in the data directory. These are loaded and all extra details are added to the working.yaml file
 
